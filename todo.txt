@@ -1,0 +1,30 @@
+hyperparmeter testing
+- maximize perplexity?
+    - higher embedding dimension
+    - higher codebook vector numbers
+    - priority: 1)embedding dim, 2) codebook vector numbers
+      - the bigger the emb dim, the more codebook vectors needed
+      - the smaller the emb dim, the less codebook vectors needed
+- models/init
+- final layernorm
+
+- bookcorpus from huggingfacey
+  - task/denoising.py
+  - data/data_utils
+  - trainer.py
+  - config.py
+
+interpolation
+ - interpolation -> output fit to codebook
+ - adversarial attack
+
+embedding loss
+ - linear output vs encoder_out
+
+ sentimental
+ - inverse sample from label
+
+ install
+ - fairseq
+ - requests
+ - tensorboardX
